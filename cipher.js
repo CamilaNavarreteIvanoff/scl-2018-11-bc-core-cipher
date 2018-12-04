@@ -1,13 +1,17 @@
 window.cipher = {
 
-  encode: (offset,texto) => {let resultado = '';
-  offset= parseInt(offset);
+  encode: (offset,texto) => {
+    let resultado = '';
+    offset= parseInt(offset);
 
   for (let i=0; i<texto.length; i++){
     let letraAscii=texto[i].charCodeAt();
     if (letraAscii >= 65 && letraAscii <= 90 ) {
-      let letraConvertida=(letraAscii-65+offset)%26+65; 
+      let letraConvertida=(letraAscii-65+ offset)%26+65;
+      console.log(letraAscii);
+      console.log(offset);
       resultado += String.fromCharCode(letraConvertida);
+     
 
          }else if (letraAscii >= 97 && letraAscii <= 122 ) {
       let letraConvertida=(letraAscii-97+offset)%26+97; 
@@ -18,7 +22,7 @@ window.cipher = {
     
     }
     return resultado;
-    /* Acá va tu código */
+    
   },
 
   decode: (offset,texto) => {
