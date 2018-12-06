@@ -8,8 +8,8 @@ window.cipher = {
     let letraAscii=texto[i].charCodeAt();
     if (letraAscii >= 65 && letraAscii <= 90 ) {
       let letraConvertida=(letraAscii-65+ offset)%26+65;
-      console.log(letraAscii);
-      console.log(offset);
+      //console.log(letraAscii);
+      //console.log(offset);
       resultado += String.fromCharCode(letraConvertida);
      
 
