@@ -63,7 +63,7 @@ Una vez ya teniendo claro los pasos para el cifrado, se desarrollo el flujo del 
 
 ![flujo](digitalizaciones/4.png)
 
-## Desiciones de diseño
+## Decisiones de diseño
 ***
 Se trabajó con dos pantallas, en la primera se presenta el servico al usuario y en la segunda puede acceder al servicio, se hace esto porque el usuario especípifico de esta página necesita que sea discreto que no llame la atención y no revele altiro el cifrado, los colores de la página tambien reflejan un lugar tranquilo, que entregue seguridad a través de los tonos celestes, blancos y en menor proporción negro para dar seriedad a la página.
 Como se ven en las imagenes de abajo, el primer sketch es de la idea inicial de las pantallas,el segundo sketch tiene modificaciones para hacer más fácil el recorrido por la pantalla, se colocan dos áreas de texto y entremedio los botones para que la acción de cifrar o descifrar se haga de izquiera a derecha. 
