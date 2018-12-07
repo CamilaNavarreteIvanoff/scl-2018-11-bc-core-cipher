@@ -1,16 +1,19 @@
 # EnClave
 ***
 
-## descripción
+## descripción(para el usuario)
 ***
-Es una pagina web que ofrece enviar mensajes amorosos entre personas que ya tienen una relación, entregando seguridad al usuario de que sus mensajes no serán leido por su pareja o una tercera persona, ya que ocupa el sistema de cifrado César que codifica por sustitución, reemplazando las letras originales de sus mensajes por otras de más adelante,colocandole un numero de desplazamiento.
+EnClave es una pagina web que ofrece enviar mensajes amorosos entre personas que ya tienen una relación, entregando seguridad al usuario de que sus mensajes no serán leido por su pareja o una tercera persona, ya que ocupa el sistema de cifrado César. 
 
-### Qué es
-### Cómo funciona
-### Donde puedo obtenerla
+ Utiliza el cifrado César que codifica por sustitución, reemplazando las letras originales de sus mensajes por letras del mismo abecedario que estan  más adelante,colocandole el número de la posición de estas letras.
+
+ Este número de posición se escribe en el offset, y el mensaje al apretar el botón cifrar codificará el mensaje y viceversa, dando la opción de borrar el mensaje de inmediato también.
 
 
-## investigación
+
+
+
+## investigación(para el desarrollador)
 ***
 Se tomo como punto de inicio la situación de los <b>mensajes</b> secretos para parejas, estas personas que ocupan páginas web o apps para conocer gente, se pueden dividir en dos grupos los que buscan conocer gente estando solteros y los que buscan ya estando en  una relación.
 
@@ -62,40 +65,17 @@ Una vez ya teniendo claro los pasos para el cifrado, se desarrollo el flujo del 
 
 ## Desiciones de diseño
 ***
-Se trabajó con dos pantallas, en la primera se presenta el servico al usuario y en la segunda puede acceder al servicio, se hace esto porque el usuario especpifico de esta página necesita que sea discreto que no llame la atención y no revele altiro el cifrado, los colores de la página tambien reflejan un lugar tranquilo, que entregue seguridad a través de los tonos celestes, blancos y en menor proporción negro.
+Se trabajó con dos pantallas, en la primera se presenta el servico al usuario y en la segunda puede acceder al servicio, se hace esto porque el usuario especípifico de esta página necesita que sea discreto que no llame la atención y no revele altiro el cifrado, los colores de la página tambien reflejan un lugar tranquilo, que entregue seguridad a través de los tonos celestes, blancos y en menor proporción negro para dar seriedad a la página.
+Como se ven en las imagenes de abajo, el primer sketch es de la idea inicial de las pantallas,el segundo sketch tiene modificaciones para hacer más fácil el recorrido por la pantalla, se colocan dos áreas de texto y entremedio los botones para que la acción de cifrar o descifrar se haga de izquiera a derecha. 
 
 ![sketches](digitalizaciones/6.png)
 ![sketches](digitalizaciones/7.png)
 
 
-
+## Planificación
+<https://trello.com/b/nZeugIb3/cipher>
  
 
  
 
 
-### Parte Obligatoria
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
-
-### Parte Opcional: "Hacker edition"
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
